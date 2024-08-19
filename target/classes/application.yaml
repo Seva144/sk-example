@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sk_example_db
+    username: sk_user_db
+    password: Aa123456
+    driver-class-name: org.postgresql.Driver
+  sql:
+    init:
+      mode: always
+
